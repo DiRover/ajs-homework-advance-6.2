@@ -1,0 +1,41 @@
+{
+  "name": "advance-task-6.2",
+  "version": "1.0.0",
+  "description": "advance-task-6.2",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "buildbabel": "babel src -d dist",
+    "build": "webpack --mode production",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiRover/ajs-homework-advance-6.2.git"
+  },
+  "keywords": [
+    "advance-task-6.2"
+  ],
+  "author": "Dmitriy Rovenskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiRover/ajs-homework-advance-6.2/issues"
+  },
+  "homepage": "https://github.com/DiRover/ajs-homework-advance-6.2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
